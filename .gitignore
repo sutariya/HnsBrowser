@@ -1,0 +1,8 @@
+# Dependencies
+/node_modules
+
+# Electron-Builder output
+/dist
+
+# Logs
+*.log
