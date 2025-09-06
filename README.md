@@ -178,5 +178,3 @@ The browser includes automatic update checking. When a new version is available,
 ---
 
 Made with ❤️ by **Rahul Sutariya**
-
-[⭐ Star this repo](https://github.com/sutariya/hns-browser) | [🐛 Report Bug](https://github.com/sutariya/hns-browser/issues) | [💡 Request Feature](https://github.com/sutariya/hns-browser/issues)
