@@ -26,7 +26,6 @@ Download the latest version for your platform:
 | **Windows (Installer)** | [HNS.Browser.Setup.1.0.0.exe](https://github.com/sutariya/HnsBrowser/releases/download/v1.0.0/HNS.Browser.Setup.1.0.0.exe) |
 | **Windows (Portable)** | [HNS.Browser.1.0.0.exe](https://github.com/sutariya/HnsBrowser/releases/download/v1.0.0/HNS.Browser.1.0.0.exe) |
 | **Linux** | [HNS.Browser-1.0.0.AppImage](https://github.com/sutariya/HnsBrowser/releases/download/v1.0.0/HNS.Browser-1.0.0.AppImage) |
-| **macOS** | [HNS-Browser.dmg](https://github.com/sutariya/HnsBrowser/releases/download/v1.0.0/HNS-Browser.dmg) |
 
 ### System Requirements
 
