@@ -157,9 +157,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
-- Built with [Electron](https://electronjs.org/)
 - Handshake protocol by [Handshake](https://handshake.org/)
-- DNS-over-HTTPS resolvers by the HNS community:
+- DNS-over-HTTPS resolvers by the [HNS DoH Members](https://hnsdoh.com):
   - **Nathan.Woodburn/** (Australia)
   - **HNS Canada** (Canada)
   - **Easy HNS** (England)
@@ -170,7 +169,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Gateway providers for fallback access:
   - [hns.to](https://hns.to)
   - [rsvr.xyz](https://rsvr.xyz)
-- Icons by [Lucide](https://lucide.dev/)
 
 ## 🔄 Updates
 
