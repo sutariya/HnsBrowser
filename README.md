@@ -3,7 +3,7 @@
 A modern, cross-platform browser for browsing Handshake (HNS) domains with a sleek dark interface.
 
 ![HNS Browser](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-blue)
-![Version](https://img.shields.io/github/v/release/yourusername/hns-browser)
+![Version](https://img.shields.io/github/v/release/sutariya/hns-browser)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 ## 🚀 Features
@@ -23,9 +23,9 @@ Download the latest version for your platform:
 
 | Platform | Download Link | File Size |
 |----------|---------------|-----------|
-| **Windows** | [HNS-Browser-Setup.exe](https://github.com/yourusername/hns-browser/releases/latest/download/HNS-Browser-Setup.exe) | ~150MB |
-| **macOS** | [HNS-Browser.dmg](https://github.com/yourusername/hns-browser/releases/latest/download/HNS-Browser.dmg) | ~150MB |
-| **Linux** | [HNS-Browser.AppImage](https://github.com/yourusername/hns-browser/releases/latest/download/HNS-Browser.AppImage) | ~150MB |
+| **Windows** | [HNS-Browser-Setup.exe](https://github.com/sutariya/hns-browser/releases/latest/download/HNS-Browser-Setup.exe) | ~150MB |
+| **macOS** | [HNS-Browser.dmg](https://github.com/sutariya/hns-browser/releases/latest/download/HNS-Browser.dmg) | ~150MB |
+| **Linux** | [HNS-Browser.AppImage](https://github.com/sutariya/hns-browser/releases/latest/download/HNS-Browser.AppImage) | ~150MB |
 
 ### System Requirements
 
@@ -77,11 +77,9 @@ Download the latest version for your platform:
 4. Browse the decentralized web!
 
 ### Popular Handshake Domains to Try
-- `mahadev/` - Handshake community site
+
 - `shakeshift/` - Handshake tools and services
 - `australia/` - Australian HNS community
-- `impervious/` - Decentralized infrastructure
-- `freedom/` - Free speech platform
 
 ### Browser Features
 - **Back/Forward**: Navigate through page history
@@ -139,7 +137,7 @@ If direct resolution fails, the browser uses:
 ## 📞 Support
 
 For support and bug reports:
-- **Issues**: [GitHub Issues](https://github.com/yourusername/hns-browser/issues)
+- **Issues**: [GitHub Issues](https://github.com/sutariya/hns-browser/issues)
 - **Email**: sutariyar@gmail.com
 - **Discord**: Join our community server
 
@@ -181,4 +179,4 @@ The browser includes automatic update checking. When a new version is available,
 
 Made with ❤️ by **Rahul Sutariya**
 
-[⭐ Star this repo](https://github.com/yourusername/hns-browser) | [🐛 Report Bug](https://github.com/yourusername/hns-browser/issues) | [💡 Request Feature](https://github.com/yourusername/hns-browser/issues)
+[⭐ Star this repo](https://github.com/sutariya/hns-browser) | [🐛 Report Bug](https://github.com/sutariya/hns-browser/issues) | [💡 Request Feature](https://github.com/sutariya/hns-browser/issues)
