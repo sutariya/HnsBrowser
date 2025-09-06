@@ -42,6 +42,7 @@ const goHome = () => {
     welcomeScreen.style.display = 'flex';
     contentView.src = 'about:blank';
     urlInput.value = '';
+    document.title = 'HNS Browser'; // <-- FIX: Reset the title
     setNavState('loaded');
 };
 

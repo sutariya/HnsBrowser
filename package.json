@@ -19,11 +19,11 @@
     "dist": "electron-builder --publish=never",
     "pack": "electron-builder --dir",
     "build:win": "electron-builder --win --x64",
-    "build:mac": "electron-builder --mac dmg",
-    "build:linux": "electron-builder --linux AppImage"
+    "build:mac": "electron-builder --mac",
+    "build:linux": "electron-builder --linux"
   },
   "devDependencies": {
-    "electron": "^27.0.0",
+    "electron": "^38.0.0",
     "electron-builder": "^24.13.3"
   },
   "dependencies": {
@@ -46,18 +46,26 @@
       "node_modules/**/*"
     ],
     "win": {
-      "target": ["portable"],
+      "target": [
+        "nsis",
+        "portable"
+      ],
       "icon": "build/icon.ico",
       "signAndEditExecutable": false
     },
     "mac": {
-      "target": ["dmg"],
+      "target": [
+        "dmg"
+      ],
       "icon": "build/icon.icns"
     },
     "linux": {
-      "target": ["AppImage"],
+      "target": [
+        "AppImage",
+        "deb"
+      ],
       "category": "Utility",
-      "icon": "build/icon.png"
+      "icon": "build"
     },
     "nsis": {
       "oneClick": false,

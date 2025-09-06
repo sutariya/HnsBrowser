@@ -4,6 +4,9 @@ const fetch = require('node-fetch');
 const dnsPacket = require('dns-packet');
 const https = require('https');
 
+// Disable hardware acceleration to fix GPU issues
+app.disableHardwareAcceleration();
+
 // Register the 'hns' scheme as privileged before app is ready
 protocol.registerSchemesAsPrivileged([
     { scheme: 'hns', privileges: { secure: true, bypassCSP: true, supportFetchAPI: true, corsEnabled: true } }
