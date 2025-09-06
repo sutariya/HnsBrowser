@@ -23,9 +23,9 @@ Download the latest version for your platform:
 
 | Platform | Download Link | File Size |
 |----------|---------------|-----------|
-| **Windows** | [HNS-Browser-Setup.exe](https://github.com/sutariya/hnsbrowser/releases/latest/download/HNS-Browser-Setup.exe) | ~150MB |
-| **macOS** | [HNS-Browser.dmg](https://github.com/sutariya/hnsbrowser/releases/latest/download/HNS-Browser.dmg) | ~150MB |
-| **Linux** | [HNS-Browser.AppImage](https://github.com/sutariya/hnsbrowser/releases/latest/download/HNS-Browser.AppImage) | ~150MB |
+| **Windows** | [HNS-Browser-Setup-1.0.0.exe](https://github.com/sutariya/hnsbrowser/releases/latest/download/HNS-Browser-Setup-1.0.0.exe) | ~150MB |
+| **macOS** | [HNS-Browser-1.0.0.dmg](https://github.com/sutariya/hnsbrowser/releases/latest/download/HNS-Browser-1.0.0.dmg) | ~150MB |
+| **Linux** | [HNS-Browser-1.0.0.AppImage](https://github.com/sutariya/hnsbrowser/releases/latest/download/HNS-Browser-1.0.0.AppImage) | ~150MB |
 
 ### System Requirements
 
