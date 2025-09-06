@@ -2,7 +2,6 @@
   "name": "hns-browser",
   "version": "1.0.0",
   "description": "A modern browser for Handshake domains",
-  "main": "main.js",
   "homepage": "./",
   "author": "Rahul Sutariya",
   "license": "MIT",
@@ -13,14 +12,15 @@
     "decentralized",
     "web"
   ],
+  "main": "src/main.js",
   "scripts": {
     "start": "electron .",
     "dev": "electron . --dev",
-    "dist": "electron-builder --publish=never",
-    "pack": "electron-builder --dir",
-    "build:win": "electron-builder --win --x64",
-    "build:mac": "electron-builder --mac",
-    "build:linux": "electron-builder --linux"
+    "protect": "node build-secure.js",
+    "build:win": "npm run protect && electron-builder --win --x64",
+    "build:mac": "npm run protect && electron-builder --mac dmg",
+    "build:linux": "npm run protect && electron-builder --linux AppImage",
+    "dist": "npm run protect && electron-builder --publish=never"
   },
   "devDependencies": {
     "electron": "^38.0.0",
@@ -38,7 +38,7 @@
       "buildResources": "build"
     },
     "files": [
-      "main.js",
+      "src/main.js",
       "preload.js",
       "renderer.js",
       "index.html",

@@ -1,8 +1,28 @@
 # Dependencies
-/node_modules
-
-# Electron-Builder output
-/dist
-
-# Logs
+node_modules/
 *.log
+
+# Build outputs
+dist/
+obfuscated/
+build/
+out/
+
+# Source code protection
+src/                   # 🔒 Hide full source
+main.js
+renderer.js
+
+# IDE / system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Keep only essential files
+!package.json
+!README.md
+!LICENSE
+!index.html
+!preload.js
+!.github/
