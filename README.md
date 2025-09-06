@@ -21,11 +21,12 @@ A modern, cross-platform browser for browsing Handshake (HNS) domains with a sle
 
 Download the latest version for your platform:
 
-| Platform | Download Link | File Size |
-|----------|---------------|-----------|
-| **Windows (Installer)** | [HNS Browser Setup 1.0.0.exe](https://github.com/sutariya/HnsBrowser/releases/latest/download/HNS%20Browser%20Setup%201.0.0.exe) | ~150MB |
-| **Windows (Portable)** | [HNS Browser 1.0.0.exe](https://github.com/sutariya/HnsBrowser/releases/latest/download/HNS%20Browser%201.0.0.exe) | ~150MB |
-| **Linux** | [HNS Browser-1.0.0.AppImage](https://github.com/sutariya/HnsBrowser/releases/latest/download/HNS%20Browser-1.0.0.AppImage) | ~150MB |
+| Platform | Download Link |
+|----------|---------------|
+| **Windows (Installer)** | [HNS.Browser.Setup.1.0.0.exe](https://github.com/sutariya/HnsBrowser/releases/download/v1.0.0/HNS.Browser.Setup.1.0.0.exe) |
+| **Windows (Portable)** | [HNS.Browser.1.0.0.exe](https://github.com/sutariya/HnsBrowser/releases/download/v1.0.0/HNS.Browser.1.0.0.exe) |
+| **Linux** | [HNS.Browser-1.0.0.AppImage](https://github.com/sutariya/HnsBrowser/releases/download/v1.0.0/HNS.Browser-1.0.0.AppImage) |
+| **macOS** | [HNS-Browser.dmg](https://github.com/sutariya/HnsBrowser/releases/download/v1.0.0/HNS-Browser.dmg) |
 
 ### System Requirements
 
