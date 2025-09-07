@@ -12,10 +12,10 @@
     "decentralized",
     "web"
   ],
-  "main": "src/main.js",
+  "main": "obfuscated/main.js",
   "scripts": {
-    "start": "electron .",
-    "dev": "electron . --dev",
+    "start": "electron src/main.js",
+    "dev": "electron src/main.js --dev",
     "protect": "node build-secure.js",
     "build:win": "npm run protect && electron-builder --win --x64",
     "build:mac": "npm run protect && electron-builder --mac dmg",
@@ -38,9 +38,8 @@
       "buildResources": "build"
     },
     "files": [
-      "src/main.js",
+      "obfuscated/**/*",
       "preload.js",
-      "renderer.js",
       "index.html",
       "package.json",
       "node_modules/**/*"

@@ -9,16 +9,16 @@ if (!fs.existsSync(obfuscatedDir)) {
   fs.mkdirSync(obfuscatedDir);
 }
 
-// Files to obfuscate (updated for src/)
+// Files to obfuscate
 const filesToObfuscate = [
   { input: "src/main.js", output: "obfuscated/main.js" },
   { input: "src/renderer.js", output: "obfuscated/renderer.js" }
 ];
 
-// Obfuscation options
+// Simplified, safer obfuscation options
 const options =
-  "--compact true --control-flow-flattening true --dead-code-injection true " +
-  "--debug-protection true --disable-console-output true " +
+  "--compact true --control-flow-flattening false --dead-code-injection false " +
+  "--debug-protection false --disable-console-output false " +
   "--identifier-names-generator hexadecimal --string-array true " +
   "--string-array-threshold 0.75 --unicode-escape-sequence true";
 
