@@ -1,0 +1,8 @@
+Ignore dependencies, Docker will install them inside the container
+node_modules
+
+Ignore build output
+dist
+
+Ignore version control
+.git

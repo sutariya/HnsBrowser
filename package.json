@@ -17,6 +17,8 @@
     "start": "electron src/main.js",
     "dev": "electron src/main.js --dev",
     "protect": "node build-secure.js",
+    "start:prod": "electron obfuscated/main.js",
+    "test:build": "npm run protect && npm run start:prod",
     "build:win": "npm run protect && electron-builder --win --x64",
     "build:mac": "npm run protect && electron-builder --mac dmg",
     "build:linux": "npm run protect && electron-builder --linux AppImage",
@@ -39,8 +41,8 @@
     },
     "files": [
       "obfuscated/**/*",
-      "preload.js",
-      "index.html",
+      "src/preload.js",
+      "src/index.html",
       "package.json",
       "node_modules/**/*"
     ],
@@ -60,8 +62,7 @@
     },
     "linux": {
       "target": [
-        "AppImage",
-        "deb"
+        "AppImage"
       ],
       "category": "Utility",
       "icon": "build"

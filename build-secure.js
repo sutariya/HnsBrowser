@@ -29,4 +29,10 @@ filesToObfuscate.forEach(({ input, output }) => {
   });
 });
 
-console.log("✅ Obfuscation complete!");
+// Copy HTML and preload script to obfuscated directory
+console.log("Copying essential files to obfuscated directory...");
+fs.copyFileSync(path.join(__dirname, 'src', 'index.html'), path.join(obfuscatedDir, 'index.html'));
+fs.copyFileSync(path.join(__dirname, 'src', 'preload.js'), path.join(obfuscatedDir, 'preload.js'));
+
+
+console.log("✅ Obfuscation and file copying complete!");
